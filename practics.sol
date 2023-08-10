@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-3.0
     pragma solidity >= 0.5.0 < 0.9.0;
-    // contract statevariable{
-    // uint public bank;
-    // constructor() public {
-    //     bank = 23;
-    // }
-    // function setdata() public {
-    //     bank = bank + 3;
-    // // in state variable there is no return 
-    // }
-    // }
+    contract statevariable{
+     uint public bank;
+     constructor() public {
+         bank = 23;
+    }
+     function setdata() public {
+         bank = bank + 3;
+    // // in the state variable there is no return 
+    }
+     }
    // / contract localvariable{
 //     function employ() view public returns(string memory){
 //         string memory totalemploy = "23";
@@ -18,7 +18,7 @@
 //     function storebalance() pure public returns(uint){
 // uint totalbalance =  1000000;
 //  return totalbalance;
-//  // in local variable return is must without return valaue cannot deploy mean not show
+//  // in local variable return is must without return value cannot deploy mean not show
 //     }
 // }
     /////////////state variable
