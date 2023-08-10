@@ -6,12 +6,13 @@
             price = 50001;
         }
         } 
-        /*contract mobile {
-        uint  public price; 
-        function getdata() public {
+///////////////or/////////
+         contract mobile {
+        string public price; 
+        constructor() {
             price = "free for new user";
         }
-        }*/  
+        } 
 
         
     
